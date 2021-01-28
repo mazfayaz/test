@@ -1,8 +1,8 @@
 import numpy as np
 
-hungry=bool(raw_input('are you hungry?\t'))
+def hungary(booleans):
+    if booleans:
+        return 'eat'
+    else:
+        return 'exercise'
 
-if hungry:
-    print 'eat'
-else:
-    print 'exercise'
